@@ -41,9 +41,9 @@ const Features = () => {
       image: pic3,
       heading: 'Wie kannst Du helfen?',
       description: <>
-                   Stell Dir vor, Du warst gerade wie immer in Deiner Kletterhalle, Deinem Fitnesscenter,
-                   einem Deiner beliebten Restaurants, der Eisdiele, dem Konzert&nbsp;etc. Jetzt zahle einfach
-                   für diesen <i>virtuellen</i> Besuch - auch wie immer.
+                   <i>Stell Dir vor</i>, Du warst gerade wie immer in Deiner Kletterhalle, Deinem Fitnesscenter,
+                   einem Deiner beliebten Restaurants, der Eisdiele, dem Konzert&nbsp;etc. Bezahle diesmal einfach
+                   für Deinen <i>imaginären</i> Besuch - auch wie immer.
                    </>,
       to: {
         href: '/de/solidaric-die-idee',
