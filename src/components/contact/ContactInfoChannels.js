@@ -15,7 +15,7 @@ const ContactInfoChannels = () =>
         <h3>Social Networks</h3>
         <ul className="icons">
           <li>
-            <a href="/#" className="fa-twitter">
+            <a href="https://twitter.com/SolidaricOrg" className="fa-twitter">
               <span className="label">Twitter</span>
             </a>
           </li>
@@ -27,7 +27,7 @@ const ContactInfoChannels = () =>
           </li>
           */}
           <li>
-            <a href="/#" className="fa-github">
+            <a href="https://github.com/Solidaric-org" className="fa-github">
               <span className="label">GitHub</span>
             </a>
           </li>
