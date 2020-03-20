@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 135.46666 135.46667"
+   height="512"
+   width="512">
+  <defs
+     id="defs2" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-97.319213,46.613173)"
+     id="layer1">
+    <g
+       id="g1484">
+      <circle
+         style="opacity:1;fill:#5e42a6;fill-opacity:1;stroke:#441650;stroke-width:3.48479319;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path1446"
+         cx="165.05255"
+         cy="21.120161"
+         r="65.990936" />
+      <g
+         aria-label="Σ+"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:88.51374054px;line-height:1.25;font-family:Karla;-inkscape-font-specification:'Karla Bold';text-align:start;text-anchor:start;opacity:1;fill:#f2f2f2;fill-opacity:1;stroke:none;stroke-width:2.78783464;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="text871">
+        <path
+           d="M 133.30277,52.713646 V 46.144267 L 151.19569,19.607432 133.82141,-4.1201279 v -6.3532811 h 38.5951 v 7.0880143 h -29.38933 l 16.81243,22.9063877 -17.67682,26.104639 h 32.8469 v 7.088014 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Droid Sans Mono';-inkscape-font-specification:'Droid Sans Mono Bold';letter-spacing:-14.75229168px;fill:#f2f2f2;stroke-width:2.78783464"
+           id="path1475" />
+        <path
+           d="m 189.30097,24.750565 h -16.72599 v -6.48294 h 16.72599 V 1.4552005 h 6.43972 V 18.267625 h 16.72598 v 6.48294 h -16.72598 v 16.639546 h -6.43972 z"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:'Droid Sans Mono';-inkscape-font-specification:'Droid Sans Mono Bold';letter-spacing:-14.75229168px;fill:#f2f2f2;stroke-width:2.78783464"
+           id="path1477" />
+      </g>
+    </g>
+  </g>
+</svg>

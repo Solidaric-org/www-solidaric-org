@@ -1,0 +1,42 @@
+///
+/// Hyperspace by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Start */
+
+#start {
+  background-attachment: fixed;
+  background-image: url('images/intro.svg');
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+  p {
+    font-size: 1.25em;
+
+    @include breakpoint('<=medium') {
+      br {
+        display: none;
+      }
+    }
+
+    @include breakpoint('<=small') {
+      font-size: 1em;
+    }
+  }
+
+  img#logo {
+    width: 10em;
+
+    @include breakpoint('<=small') {
+      width: 5em;
+    }
+  }
+
+  @include breakpoint('<=large') {
+    background-attachment: scroll;
+  }
+
+}
