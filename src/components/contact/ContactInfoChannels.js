@@ -1,29 +1,15 @@
 import React from "react";
 
-const ContactInformation = () =>
+const ContactInfoChannels = () =>
   <section>
     <ul className="contact">
-      <li>
-        <h3>Adresse</h3>
-        <span>
-          Solidaric.org
-          <br />
-          c/o 4commerce technologies AG
-          <br />
-          Burchardstrasse 22
-          <br />
-          20095 Hamburg
-          <br />
-          Deutschland
-        </span>
-      </li>
       <li>
         <h3>Email</h3>
         <a href="/#">contribute@solidaric.org</a>
       </li>
       <li>
         <h3>Telefon</h3>
-        <span>(+49) 40 5619570</span>
+        <a href="tel:+49405619470">+49&nbsp;40&nbsp;5619570</a>
       </li>
       <li>
         <h3>Social Networks</h3>
@@ -50,4 +36,4 @@ const ContactInformation = () =>
     </ul>
   </section>
 
-export default ContactInformation;
+export default ContactInfoChannels;

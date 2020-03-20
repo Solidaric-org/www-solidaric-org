@@ -24,11 +24,11 @@
 
 		&.style1 {
 			> :nth-child(2n - 1) {
-				width: calc(66.66666% - 2.5em);
+				width: calc(60% - 2.5em);
 			}
 
 			> :nth-child(2n) {
-				width: calc(33.33333% - 2.5em);
+				width: calc(60% - 2.5em);
 			}
 		}
 
@@ -47,11 +47,11 @@
 
 			&.style1 {
 				> :nth-child(2n - 1) {
-					width: calc(66.66666% - 2em);
+					width: calc(60% - 2em);
 				}
 
 				> :nth-child(2n) {
-					width: calc(33.33333% - 2em);
+					width: calc(60% - 2em);
 				}
 			}
 		}
