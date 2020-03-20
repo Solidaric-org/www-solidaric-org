@@ -22,10 +22,12 @@
 				border-radius: 0;
 				display: block;
 				position: relative;
-				width: 25em;
+				xwidth: 25em;
 
 				img {
-					border-radius: 0;
+					border-radius: 0%;
+          xmargin: 1em 1em 1em 1em;
+          xmax-width: 95%;
 					display: block;
 				}
 
@@ -39,16 +41,17 @@
 					opacity: 0;
 					position: absolute;
 					top: 0;
-					width: 100%;
+					xwidth: 100%;
 				}
 			}
 
 			> .content {
+        max-height: 438px;
 				@include padding(4em, 5em);
 				@include vendor('display', 'flex');
 				@include vendor('flex-direction', 'column');
 				@include vendor('justify-content', 'center');
-				width: #{_size(inner-width) - 25em};
+				xwidth: #{_size(inner-width) - 25em};
 				-ms-flex: 1;
 
 				> .inner {
