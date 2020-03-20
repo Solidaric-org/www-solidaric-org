@@ -12,7 +12,7 @@ const Engage = () =>
         <br/>
         So ein großes Projekt geht nur mit Hilfe vieler Hände und Unterstützer.
         <br />
-        Du findest hier verschiedene Anregungen und Aufgaben, die Du gerne unterstützen kannst oder
+        Du findest hier verschiedene Anregungen und Aufgaben bei denen Du gerne mitwirken kannst oder
         Du bringst Deine eigenen Ideen ein.
       </p>
       <div className="features">
