@@ -16,7 +16,8 @@ const Features = () => {
       heading: 'Worum geht es?',
       description: <>
                    Schnelle, einfache, unbürokratische und direkte finanzielle Unterstützung für
-                   Selbständige, Restaurants, Geschäfte, (Klein-)Unternehmen&nbsp;etc. in Krisenzeiten.
+                   Selbständige, Restaurants, Geschäfte, Sportvereine, (Klein-)Unternehmen&nbsp;etc.
+                   in Krisenzeiten.
                    </>,
       to: {
         href: '/de/solidaric-die-idee',
