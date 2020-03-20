@@ -1,6 +1,6 @@
 import React from 'react';
 
-import pic4 from '../../images/pic04.jpg';
+import pic4 from '../../images/randy-fath-ymf4_9Y9S_A-unsplash.jpg';
 
 import Layout from '../../components/common/layout';
 import Footer from '../../components/common/Footer';
