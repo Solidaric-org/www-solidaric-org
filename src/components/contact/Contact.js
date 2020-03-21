@@ -11,7 +11,7 @@ const Contact = () =>
         Großartig, dass Du Dich engagierst!
         <br />
         <br />
-        Benutze am besten die Social-Media Kanäle um mit allen Helfern in Verbindung zu sein.
+        Benutze am besten die Social-Media Kanäle um in Verbindung zu sein und auch um weitere Projekte anzumelden.
         <br />
         Bei direkten Fragen kannst Du uns auch eine Mail senden.
       </p>
