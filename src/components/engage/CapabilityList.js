@@ -5,18 +5,26 @@ import Capability from './Capability';
 const CapabilityList = () => {
   const CAPABILITIES = [
     {
-      iconClass: 'fa-code',
-      heading: 'Fürsprecher',
+      iconClass: 'fa-link',
+      heading: 'Save Your Pub',
       description: <>
-                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+                   Unterstütze dein Lieblingslokal mit einer kleinen Spende und sorge dafür, dass es nach der Corona-Zeit weiterhin existieren kann.
                    </>,
+      to: {
+        href: 'https://www.saveyourpub.com',
+        label: 'saveyourpub.com',
+      },
     },
     {
-      iconClass: 'fa-code',
-      heading: 'Unterstützer',
+      iconClass: 'fa-link',
+      heading: '#WirVsVirusHack Projekt 522',
       description: <>
-                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+                   Idee zu einer Plattform, die analog zu ShareTheMeal oder Patreon ermöglicht, an lokale Unternehmen zu spenden.
                    </>,
+      to: {
+        href: 'https://devpost.com/software/1_d_16_lokaleunternehmen-plus-tmpname',
+        label: '',
+      },
     },
     {
       iconClass: 'fa-code',
@@ -24,6 +32,10 @@ const CapabilityList = () => {
       description: <>
                    Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
                    </>,
+      to: {
+        href: 'https://www.betterplace.me/hannover-corona-soforthilfe',
+        label: '',
+      },
     },
     {
       iconClass: 'fa-code',
@@ -31,6 +43,10 @@ const CapabilityList = () => {
       description: <>
                    Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
                    </>,
+      to: {
+        href: 'aaa',
+        label: '',
+      },
     },
     {
       iconClass: 'fa-code',
@@ -38,6 +54,10 @@ const CapabilityList = () => {
       description: <>
                    Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
                    </>,
+      to: {
+        href: 'aaa',
+        label: '',
+      },
     },
     {
       iconClass: 'fa-code',
@@ -45,6 +65,10 @@ const CapabilityList = () => {
       description: <>
                    Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
                    </>,
+      to: {
+        href: '',
+        label: '',
+      },
     },
     {
       iconClass: 'fa-code',
@@ -52,6 +76,10 @@ const CapabilityList = () => {
       description: <>
                    Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
                    </>,
+      to: {
+        href: '',
+        label: '',
+      },
     },
     {
       iconClass: 'fa-code',
@@ -59,6 +87,10 @@ const CapabilityList = () => {
       description: <>
                    Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
                    </>,
+      to: {
+        href: '',
+        label: '',
+      },
     },
   ]
 

@@ -48,6 +48,16 @@
 					}
 				}
 			}
+
+      .bottom-wrapper {
+        height: 4em;
+
+        .actions {
+          position: absolute;
+          margin-bottom: 2em;
+          bottom: 0;
+        }
+      }
 		}
 
 		&.inactive {

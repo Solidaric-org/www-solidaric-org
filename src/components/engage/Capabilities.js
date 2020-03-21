@@ -10,21 +10,14 @@ const Engage = () =>
       <p>
         Toll, dass Du Dich beteiligst und Deinen Beitrag leistest!
         <br/>
-        So ein großes Projekt geht nur mit Hilfe vieler Hände und Unterstützer.
+        So eine große Aufgabe geht nur mit Hilfe vieler Hände und Unterstützer.
         <br />
-        Du findest hier verschiedene Anregungen und Aufgaben bei denen Du gerne mitwirken kannst oder
-        Du bringst Deine eigenen Ideen ein.
+        Du findest hier bereits existierende Zugänge bei denen Du Dich gerne einbringen kannst oder
+        Du stellst Deine eigenen Ideen vor.
       </p>
       <div className="features">
         <CapabilityList />
       </div>
-      <ul className="actions">
-        <li>
-          <Link className="button" to="/de/solidaric-die-idee">
-            Erfahre mehr
-          </Link>
-        </li>
-      </ul>
     </div>
   </section>
 
