@@ -5,6 +5,8 @@ import Footer   from '../../components/common/Footer';
 import Sidebar  from '../../components/common/Sidebar';
 
 import SEO      from '../../components/seo/SEO';
+import SEO_card from '../../assets/img/solidaric-org-social-fix-image-1200x630.png';
+
 
 import Start        from '../../components/start/Start';
 import Features     from '../../components/about/Features';
@@ -14,7 +16,7 @@ import Contact      from '../../components/contact/Contact';
 
 const IndexPage = () =>
   <Layout>
-    <SEO title="My Amazing Gatsby App" />
+    <SEO image={SEO_card} />
     <Sidebar />
 
     <div id="wrapper">
