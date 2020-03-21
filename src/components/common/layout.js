@@ -21,8 +21,13 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Solidaric - we help the world' },
-            { name: 'keywords', content: 'funding' },
+            { name: 'description', content: 'Gemeinsam in Krisenzeiten - gemeinsam im Leben.' },
+            { name: 'keywords', content: 'Solidarität, Gemeinschaft, Unterstützung, Hilfe' },
+            { name: 'og:title', content: 'Solidaric.org - Menschen für Menschen' },
+            { name: 'og:description', content: 'Gemeinsam in Krisenzeiten - gemeinsam im Leben.' },
+            { name: 'og:image', content: '/static/solidaric-org-social-fix-image-1200x630.png' },
+            { name: 'og:url', content: '/de' },
+            { name: 'twitter:card', content: 'summary_large_image' },
           ]}
         >
           <html lang="de" />

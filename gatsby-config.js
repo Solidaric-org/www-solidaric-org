@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: 'Solidaric.org Website',
-    description: 'The information',
-    author: 'Solidaric author',
-    keywords: 'My keywords',
-    siteUrl: 'https://www.solidaric.org',
+    title: 'Solidaric.org - Menschen für Menschen',
+    description: 'Gemeinsam in Krisenzeiten - gemeinsam im Leben.',
+    author: 'Solidaric.org',
+    keywords: 'Solidarität, Gemeinschaft, Unterstützung, Hilfe',
+    siteUrl: 'https://www.solidaric.org/',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
