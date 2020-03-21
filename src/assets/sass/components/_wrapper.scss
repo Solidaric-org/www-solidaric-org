@@ -83,7 +83,7 @@
 
 			@include breakpoint('<=small') {
 				padding: 2em 0;
-				min-height: 0;
+				min-height: 100vh;
 
 				body.is-ie & {
 					height: auto;
