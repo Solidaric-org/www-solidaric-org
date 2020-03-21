@@ -11,7 +11,7 @@ const Capability = ({ iconClass, heading, description, to }) =>
     <div className="bottom-wrapper">
       { to && to.href != '' &&
         <div className="actions">
-          <Link className='button' to={to.href}>{to.label == '' ? heading : to.label}</Link>
+          <a className='button' href={to.href}>{to.label == '' ? heading : to.label}</a>
         </div>
       }
     </div>
