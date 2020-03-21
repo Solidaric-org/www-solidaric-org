@@ -11,8 +11,9 @@ const Engage = () =>
         Toll, dass Du Dich beteiligst und Deinen Beitrag leistest!
         <br/>
         So eine große Aufgabe geht nur mit Hilfe vieler Hände und Unterstützer.
-        <br />
-        Du findest hier bereits existierende Zugänge bei denen Du Dich gerne einbringen kannst oder
+      </p>
+      <p>
+        Du findest hier Angebote bei denen Du Dich gerne einbringen kannst oder
         Du stellst Deine eigenen Ideen vor.
       </p>
       <div className="features">

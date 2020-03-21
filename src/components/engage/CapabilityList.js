@@ -5,7 +5,18 @@ import Capability from './Capability';
 const CapabilityList = () => {
   const CAPABILITIES = [
     {
-      iconClass: 'fa-link',
+      iconClass: 'fa-heart-o',
+      heading: 'Lokale Liebe',
+      description: <>
+                   Start einer Plattform im Rahmen des #WirVsVirusHack, die analog zu ShareTheMeal oder Patreon ermöglicht, an lokale Unternehmen zu spenden.
+                   </>,
+      to: {
+        href: 'https://devpost.com/software/1_d_16_lokaleunternehmen-plus-tmpname',
+        label: 'lokale-liebe.de',
+      },
+    },
+    {
+      iconClass: 'fa-heart-o',
       heading: 'Save Your Pub',
       description: <>
                    Unterstütze dein Lieblingslokal mit einer kleinen Spende und sorge dafür, dass es nach der Corona-Zeit weiterhin existieren kann.
@@ -16,80 +27,25 @@ const CapabilityList = () => {
       },
     },
     {
-      iconClass: 'fa-link',
-      heading: '#WirVsVirusHack Projekt 522',
+      iconClass: 'fa-heart-o',
+      heading: 'Spendenaktion',
       description: <>
-                   Idee zu einer Plattform, die analog zu ShareTheMeal oder Patreon ermöglicht, an lokale Unternehmen zu spenden.
-                   </>,
-      to: {
-        href: 'https://devpost.com/software/1_d_16_lokaleunternehmen-plus-tmpname',
-        label: '',
-      },
-    },
-    {
-      iconClass: 'fa-code',
-      heading: 'Entwickler',
-      description: <>
-                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+                   Wir für Hannovers Gastro! Corona-Soforthilfe auf betterplace.me.
                    </>,
       to: {
         href: 'https://www.betterplace.me/hannover-corona-soforthilfe',
-        label: '',
+        label: 'betterplace.me',
       },
     },
     {
-      iconClass: 'fa-code',
-      heading: 'Techniker',
+      iconClass: 'fa-heart-o',
+      heading: '#WirVsVirus Hackaton',
       description: <>
-                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+                   Sei mit Deinen Fähigkeiten dabei, wenn wir Lösungen aus der Gesellschaft für die Gesellschaft entwickeln.
                    </>,
       to: {
-        href: 'aaa',
-        label: '',
-      },
-    },
-    {
-      iconClass: 'fa-code',
-      heading: 'Rechtsanwalt',
-      description: <>
-                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
-                   </>,
-      to: {
-        href: 'aaa',
-        label: '',
-      },
-    },
-    {
-      iconClass: 'fa-code',
-      heading: 'Steuer- und Finanzexperte',
-      description: <>
-                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
-                   </>,
-      to: {
-        href: '',
-        label: '',
-      },
-    },
-    {
-      iconClass: 'fa-code',
-      heading: 'Pionier',
-      description: <>
-                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
-                   </>,
-      to: {
-        href: '',
-        label: '',
-      },
-    },
-    {
-      iconClass: 'fa-code',
-      heading: 'Helfende Hände',
-      description: <>
-                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
-                   </>,
-      to: {
-        href: '',
-        label: '',
+        href: 'https://wirvsvirushackathon.org/',
+        label: '#WirVsVirus',
       },
     },
   ]
