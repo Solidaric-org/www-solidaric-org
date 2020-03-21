@@ -10,7 +10,7 @@
 		> section {
 			@include vendor('display', 'flex');
 			@include vendor('flex-direction', 'row');
-			min-height: 22.5em;
+			min-height: #{_size(feature-height)};
 
 			body.is-ie & {
 				min-height: 0;
