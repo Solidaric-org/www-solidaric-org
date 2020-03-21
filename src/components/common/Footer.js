@@ -7,10 +7,7 @@ const Footer = () => (
     <div className="inner">
       <ul className="menu">
         <li>
-          &copy; 2020 Solidaric.org
-        </li>
-        <li>
-          All rights reserved.
+          &copy; 2020 Solidaric.org, all rights reserved.
         </li>
         <li>
           Impressum: <a href="/#">folgt in Kürze</a>
