@@ -70,7 +70,9 @@ const Features = () => {
       href: '/#',
       image: pic5,
       heading: 'Wie funktioniert das?',
-      description: 'Mitmachen, Anmelden, Unternehmen auswählen und finanziellen Beitrag senden.',
+      description: <>
+                   Mitmachen, Anmelden, Begünstigten auswählen und finanziellen Beitrag senden - So einfach geht Solidarität.
+                   </>,
       to: {
         href: '/de/solidaric-die-idee',
         label: 'Erfahre mehr',
