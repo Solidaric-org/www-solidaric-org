@@ -1,6 +1,5 @@
 import React from 'react';
 
-import ContactForm from './ContactForm';
 import ContactInfoChannels from './ContactInfoChannels';
 import ContactInfoAddress from './ContactInfoAddress';
 
