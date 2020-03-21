@@ -7,7 +7,7 @@ const Start = () =>
   <section id="start" className="wrapper style1 fullscreen fade-up">
     <div className="inner">
       <img id="logo" src={pic1} alt="" data-position="center center" />
-      <h1>Solidaric</h1>
+      <h1>Solidaric.org</h1>
       <p>
         „Das Ganze ist mehr als die Summe seiner Teile.“<br />
         — Aristoteles
