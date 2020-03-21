@@ -23,11 +23,11 @@ const Layout = ({ children }) => (
           meta={[
             { name: 'description', content: 'Gemeinsam in Krisenzeiten - gemeinsam im Leben.' },
             { name: 'keywords', content: 'Solidarität, Gemeinschaft, Unterstützung, Hilfe' },
-            { name: 'og:title', content: 'Solidaric.org - Menschen für Menschen' },
-            { name: 'og:description', content: 'Gemeinsam in Krisenzeiten - gemeinsam im Leben.' },
-            { name: 'og:image', content: '/static/solidaric-org-social-fix-image-1200x630.png' },
-            { name: 'og:url', content: '/de' },
-            { name: 'twitter:card', content: 'summary_large_image' },
+            { property: 'og:title', content: 'Solidaric.org - Menschen für Menschen' },
+            { property: 'og:description', content: 'Gemeinsam in Krisenzeiten - gemeinsam im Leben.' },
+            { property: 'og:image', content: 'https://www.solidaric.org/static/solidaric-org-social-fix-image-1200x630.png' },
+            { property: 'og:url', content: 'ihttps://www.solidaric.org/de' },
+            { property: 'twitter:card', content: 'summary_large_image' },
           ]}
         >
           <html lang="de" />
