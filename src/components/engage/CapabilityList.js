@@ -5,34 +5,60 @@ import Capability from './Capability';
 const CapabilityList = () => {
   const CAPABILITIES = [
     {
-      heading: 'Lorem ipsum amet',
-      description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
       iconClass: 'fa-code',
+      heading: 'Fürsprecher',
+      description: <>
+                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+                   </>,
     },
     {
-      heading: 'Morem ipsum amet',
-      description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
-      iconClass: 'fa-lock',
+      iconClass: 'fa-code',
+      heading: 'Unterstützer',
+      description: <>
+                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+                   </>,
     },
     {
-      heading: 'Dorem ipsum amet',
-      description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
-      iconClass: 'fa-cog',
+      iconClass: 'fa-code',
+      heading: 'Entwickler',
+      description: <>
+                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+                   </>,
     },
     {
-      heading: 'Forem ipsum amet',
-      description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
-      iconClass: 'fa-desktop',
+      iconClass: 'fa-code',
+      heading: 'Techniker',
+      description: <>
+                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+                   </>,
     },
     {
-      heading: 'Corem ipsum amet',
-      description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
-      iconClass: 'fa-chain',
+      iconClass: 'fa-code',
+      heading: 'Rechtsanwalt',
+      description: <>
+                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+                   </>,
     },
     {
-      heading: 'Norem ipsum amet',
-      description: 'Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.',
-      iconClass: 'fa-diamond',
+      iconClass: 'fa-code',
+      heading: 'Steuer- und Finanzexperte',
+      description: <>
+                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+                   </>,
+    },
+    {
+      iconClass: 'fa-code',
+      heading: 'Pionier',
+      description: <>
+                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+                   </>,
+    },
+    {
+      iconClass: 'fa-code',
+      heading: 'Helfende Hände',
+      description: <>
+                   Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+                   </>,
     },
   ]
 
