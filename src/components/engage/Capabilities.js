@@ -14,7 +14,7 @@ const Engage = () =>
       </p>
       <p>
         Du findest hier Angebote bei denen Du Dich gerne einbringen kannst oder
-        Du stellst Deine eigenen Ideen vor.
+        Du stellst Deine eigenen&nbsp;Ideen&nbsp;vor.
       </p>
       <div className="features">
         <CapabilityList />
