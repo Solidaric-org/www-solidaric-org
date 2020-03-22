@@ -6,13 +6,13 @@ const CapabilityList = () => {
   const CAPABILITIES = [
     {
       iconClass: 'fa-heart-o',
-      heading: 'Lokale Liebe',
+      heading: 'LadenLiebe',
       description: <>
-                   Start einer Plattform im Rahmen des #WirVsVirusHack, die analog zu ShareTheMeal oder Patreon ermöglicht, an lokale Unternehmen zu spenden.
+                   Prototyp einer Plattform im Rahmen des #WirVsVirusHack, die analog zu ShareTheMeal oder Patreon ermöglicht, an lokale Unternehmen zu spenden.
                    </>,
       to: {
-        href: 'https://devpost.com/software/1_d_16_lokaleunternehmen-plus-tmpname',
-        label: 'lokale-liebe.de',
+        href: 'https://www.ladenliebe.org',
+        label: 'ladenliebe.org',
       },
     },
     {
