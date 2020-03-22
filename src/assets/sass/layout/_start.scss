@@ -7,11 +7,15 @@
 /* Start */
 
 #start {
-  background-attachment: fixed;
-  background-image: url('images/intro.svg');
+  background-image:
+    linear-gradient(
+      rgba(49, 36, 80, 0.45),
+      rgba(49, 36, 80, 0.45)
+    ),
+    url('images/intro.jpg');
   background-position: top right;
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
 
   p {
     font-size: 1.25em;
