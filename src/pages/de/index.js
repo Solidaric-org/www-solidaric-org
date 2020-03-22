@@ -6,8 +6,8 @@ import Sidebar  from '../../components/common/Sidebar';
 
 import Start        from '../../components/start/Start';
 import Features     from '../../components/about/Features';
-import Contribute   from '../../components/contribute/Capabilities';
-import Engage       from '../../components/engage/Capabilities';
+import Contribute   from '../../components/contribute/Contribute';
+import Engage       from '../../components/engage/Engage';
 import Contact      from '../../components/contact/Contact';
 
 const IndexPage = () =>
