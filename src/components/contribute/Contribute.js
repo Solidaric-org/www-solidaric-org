@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Scroll from '../common/Scroll';
 
-import CapabilityList from './CapabilityList';
+import CapabilityList from '../capability/CapabilityList';
+import CONTRIBUTE_ITEMS from './ContributeItems'
 
 const Contribute = () =>
   <section id="contribute" className="wrapper style3 fade-up">
@@ -24,7 +25,7 @@ const Contribute = () =>
         <strong>Es kommt auf uns alle an!</strong>
       </p>
       <div className="features">
-        <CapabilityList />
+        {CapabilityList(CONTRIBUTE_ITEMS)}
       </div>
       <ul className="actions">
         <li>
