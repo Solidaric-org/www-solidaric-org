@@ -9,8 +9,12 @@ const Start = () =>
       <img id="logo" src={pic1} alt="" data-position="center center" />
       <h1>Solidaric.org</h1>
       <p>
-        „Das Ganze ist mehr als die Summe seiner Teile.“<br />
+        „Das Ganze ist mehr als die Summe seiner Teile.“ <br />
         — Aristoteles
+      </p>
+      <p>
+        Hilf jetzt den lokalen Gewerben und Selbständigen, <br />
+        — für ein gemeinsames Leben nach der Krise.
       </p>
       <ul className="actions">
         <li>
