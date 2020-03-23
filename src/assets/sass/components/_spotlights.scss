@@ -62,6 +62,12 @@
 
 			&:nth-child(1) {
         background-color: rgba(0,0,0,0.10);
+
+        @include breakpoint('<=xsmall') {
+          > .image {
+            padding-top: 0em;
+          }
+        }
 			}
 
 			&:nth-child(2) {
@@ -133,7 +139,7 @@
 			@include breakpoint('<=small') {
 				> .image {
           img {
-            max-width: 18em;
+            max-width: 20em;
           }
 				}
 
@@ -141,6 +147,21 @@
 					@include padding(3em, 2em);
 				}
 			}
+
+      @include breakpoint('<=xsmall') {
+        > .image {
+          padding-top: 2em;
+
+          img {
+            border-radius: 0;
+            max-width: 100%;
+          }
+        }
+
+        > .content {
+          @include padding(3em, 2em);
+        }
+      }
 		}
 	}
 
