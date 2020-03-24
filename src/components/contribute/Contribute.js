@@ -15,7 +15,7 @@ const Contribute = () =>
         Mit <i>Solidaric.org</i> würden wir gerne eine Liste mit Möglichkeiten zum Helfen zur Verfügung stellen.
         Damit dies zum Leben erwacht und die Menschen in unserer Nähe unterstützt, benötigen wir u.a. Antworten
         auf die folgenden Fragen sowie Hinweise zu umgesetzten Lösungen.
-        <strong> Es kommt auf uns alle an!</strong>
+        <span className="no-wrap"><strong> Es kommt auf uns alle an!</strong></span>
       </p>
       <p>
         <Scroll type="id" element="engage">
