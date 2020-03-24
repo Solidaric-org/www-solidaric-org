@@ -14,6 +14,13 @@
 		background: _palette(border-bg);
 		margin: 0 0 _size(element-margin) 0;
 
+    /// deactivate all borders for inner sections
+    &.without-borders {
+      section {
+        border: 0 !important;
+      }
+    }
+
 		section {
 			@include padding(1.5em, 1.5em, (0.5em, 0, 0, 4em));
 			width: 50%;

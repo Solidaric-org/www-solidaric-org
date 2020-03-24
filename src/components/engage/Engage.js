@@ -50,7 +50,7 @@ const Engage = () => {
 
         <h3>Verfügbare Initiativen</h3>
         <p></p>
-        <div className="features">
+        <div className="features without-borders">
           {CapabilityList(data.stable.edges)}
         </div>
 
@@ -61,7 +61,7 @@ const Engage = () => {
           <i>Diese Projekte sind noch in der Entwicklung und freuen sich bestimmt auch
           über Deine Mithilfe.</i>
         </p>
-        <div className="features">
+        <div className="features without-borders">
           {CapabilityList(data.unstable.edges)}
         </div>
       </div>
