@@ -11,11 +11,11 @@ const Contribute = () =>
       <h2>Was ist zu tun?</h2>
 
       <p>
-        Heute, am 20.03.2020, startet der #WirVsVirus Hackathon. Viele sind enthusiastisch und wollen helfen.
-        Mit <i>Solidaric.org</i> würden wir gerne eine Liste mit Möglichkeiten zum Helfen zur Verfügung stellen.
-        Damit dies zum Leben erwacht und die Menschen in unserer Nähe unterstützt, benötigen wir u.a. Antworten
-        auf die folgenden Fragen sowie Hinweise zu umgesetzten Lösungen.
-        <span className="no-wrap"><strong> Es kommt auf uns alle an!</strong></span>
+        Heute, am 20.03.2020, startete der #WirVsVirus Hackathon. Viele sind enthusiastisch und wollen helfen.
+        Mit <i>Solidaric.org</i> entsteht hoffentlich eine Übersicht mit Möglichkeiten zur direkten Hilfe.
+        Damit diese Initiative mit Leben gefüllt wird und so die Menschen in Deiner Nähe unterstützt,
+        <span className="no-wrap"> ist u.a.</span> <span className="no-wrap">das Folgende wichtig —</span>
+        <span className="no-wrap"><strong> es kommt jetzt auf uns alle an!</strong></span>
       </p>
       <p>
         <Scroll type="id" element="engage">
@@ -29,6 +29,7 @@ const Contribute = () =>
         {CapabilityList(CONTRIBUTIONS_DATA)}
       </div>
 
+      {/*
       <ul className="actions">
         <li>
           <Link className="button" to="/de/solidaric-die-idee">
@@ -36,6 +37,7 @@ const Contribute = () =>
           </Link>
         </li>
       </ul>
+      */}
     </div>
   </section>
 
