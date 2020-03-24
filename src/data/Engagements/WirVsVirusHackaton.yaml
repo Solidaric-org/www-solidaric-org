@@ -1,0 +1,11 @@
+heading:
+  '#WirVsVirus Hackaton'
+description:
+  Sei mit Deinen Fähigkeiten dabei, wenn wir Lösungen aus der Gesellschaft für die Gesellschaft entwickeln.
+iconClass:
+  fa-code
+stable:
+  false
+to:
+  href: https://wirvsvirushackathon.devpost.com/submissions
+  label: '#WirVsVirus'

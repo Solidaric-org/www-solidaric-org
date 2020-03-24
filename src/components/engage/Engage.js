@@ -1,10 +1,38 @@
 import React from 'react';
+import { useStaticQuery, graphql } from 'gatsby';
 
 import CapabilityList from '../capability/CapabilityList';
-import ENGAGE_STABLE_ITEMS from './EngageStableItems.yaml';
-import ENGAGE_PROTOTYPE_ITEMS from './EngagePrototypeItems.yaml';
 
-const Engage = () =>
+const Engage = () => {
+  const data = useStaticQuery(
+    graphql`
+      {
+        stable: allEngagementsYaml(filter: {stable: {eq: true}}) {
+          edges {
+            ...engagementNode
+          }
+        }
+        unstable: allEngagementsYaml(filter: {stable: {eq: false}}) {
+          edges {
+            ...engagementNode
+          }
+        }
+      }
+      fragment engagementNode on EngagementsYamlEdge {
+        node {
+          heading
+          description
+          iconClass
+          stable
+          to {
+            href
+            label
+          }
+        }
+       }
+  `)
+
+  return (
   <section id="engage" className="wrapper style2 fade-up">
     <div className="inner">
       <h2>Mitmachen - Jetzt unterstützen!</h2>
@@ -23,7 +51,7 @@ const Engage = () =>
       <h3>Verfügbare Initiativen</h3>
       <p></p>
       <div className="features">
-        {CapabilityList(ENGAGE_STABLE_ITEMS)}
+        {CapabilityList(data.stable.edges)}
       </div>
 
       <br />
@@ -34,9 +62,11 @@ const Engage = () =>
         über Deine Mithilfe.</i>
       </p>
       <div className="features">
-        {CapabilityList(ENGAGE_PROTOTYPE_ITEMS)}
+        {CapabilityList(data.unstable.edges)}
       </div>
     </div>
   </section>
+  )
+}
 
 export default Engage;
