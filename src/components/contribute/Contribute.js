@@ -3,7 +3,7 @@ import { Link } from 'gatsby';
 import Scroll from '../common/Scroll';
 
 import CapabilityList from '../capability/CapabilityList';
-import CONTRIBUTE_ITEMS from './ContributeItems.yaml'
+import CONTRIBUTIONS_DATA from '../../data/Contributions.yaml'
 
 const Contribute = () =>
   <section id="contribute" className="wrapper style3 fade-up">
@@ -25,7 +25,7 @@ const Contribute = () =>
       </p>
 
       <div className="features">
-        {CapabilityList(CONTRIBUTE_ITEMS)}
+        {CapabilityList(CONTRIBUTIONS_DATA)}
       </div>
 
       <ul className="actions">
