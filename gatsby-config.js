@@ -24,9 +24,10 @@ module.exports = {
     'gatsby-plugin-offline',
     `gatsby-transformer-yaml`,
     {
-      resolve: `gatsby-source-filesystem`,
+      resolve: 'gatsby-source-filesystem',
       options: {
-        path: `./src/data/`,
+        path: 'src/data/', // This path is relative to the root of the site.
+        ignore: ['**/\.*'], // ignore files starting with a dot
       },
     },
   ],
