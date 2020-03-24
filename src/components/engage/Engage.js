@@ -33,39 +33,39 @@ const Engage = () => {
   `)
 
   return (
-  <section id="engage" className="wrapper style2 fade-up">
-    <div className="inner">
-      <h2>Mitmachen - Jetzt unterstützen!</h2>
-      <p>
-        Toll, dass Du Dich beteiligst und Deinen Beitrag leistest!
-        <br/>
-        So eine große Aufgabe geht nur mit Hilfe vieler Hände und Unterstützer.
-      </p>
-      <p>
-        Du findest hier Angebote sowie bestehende Initiativen bei denen Du Dich
-        gerne einbringen kannst oder Du stellst Deine eigenen&nbsp;Ideen&nbsp;vor.
-      </p>
+    <section id="engage" className="wrapper style2 fade-up">
+      <div className="inner">
+        <h2>Mitmachen - Jetzt unterstützen!</h2>
+        <p>
+          Toll, dass Du Dich beteiligst und Deinen Beitrag leistest!
+          <br/>
+          So eine große Aufgabe geht nur mit Hilfe vieler Hände und Unterstützer.
+        </p>
+        <p>
+          Du findest hier Angebote sowie bestehende Initiativen bei denen Du Dich
+          gerne einbringen kannst oder Du stellst Deine eigenen&nbsp;Ideen&nbsp;vor.
+        </p>
 
-      <br />
+        <br />
 
-      <h3>Verfügbare Initiativen</h3>
-      <p></p>
-      <div className="features">
-        {CapabilityList(data.stable.edges)}
+        <h3>Verfügbare Initiativen</h3>
+        <p></p>
+        <div className="features">
+          {CapabilityList(data.stable.edges)}
+        </div>
+
+        <br />
+
+        <h3>Ideen und Prototypen</h3>
+        <p>
+          <i>Diese Projekte sind noch in der Entwicklung und freuen sich bestimmt auch
+          über Deine Mithilfe.</i>
+        </p>
+        <div className="features">
+          {CapabilityList(data.unstable.edges)}
+        </div>
       </div>
-
-      <br />
-
-      <h3>Ideen und Prototypen</h3>
-      <p>
-        <i>Diese Projekte sind noch in der Entwicklung und freuen sich bestimmt auch
-        über Deine Mithilfe.</i>
-      </p>
-      <div className="features">
-        {CapabilityList(data.unstable.edges)}
-      </div>
-    </div>
-  </section>
+    </section>
   )
 }
 
