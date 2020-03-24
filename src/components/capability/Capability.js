@@ -1,12 +1,14 @@
 import React from 'react';
 
+import parseHTML from 'html-react-parser';
+
 const Capability = ({ iconClass, heading, description, to }) =>
   <section>
     { heading !== '' &&
       <span className={`icon major ${iconClass}`} />
     }
-    <h3>{heading}</h3>
-    <p>{description}</p>
+    <h3>{parseHTML(heading)}</h3>
+    <p>{parseHTML(description)}</p>
     { to &&
     <div className="bottom-wrapper">
       { to.href !== '' &&
