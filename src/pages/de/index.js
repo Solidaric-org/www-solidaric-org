@@ -5,7 +5,7 @@ import Footer   from '../../components/common/Footer';
 import Sidebar  from '../../components/common/Sidebar';
 
 import Start        from '../../components/start/Start';
-import Features     from '../../components/about/Features';
+import About        from '../../components/about/About';
 import Contribute   from '../../components/contribute/Contribute';
 import Engage       from '../../components/engage/Engage';
 import Contact      from '../../components/contact/Contact';
@@ -16,7 +16,7 @@ const IndexPage = () =>
 
     <div id="wrapper">
       <Start />
-      <Features />
+      <About />
       <Contribute />
       <Engage />
       <Contact />
