@@ -11,9 +11,10 @@ const Contribute = () =>
       <h2>Was ist zu tun?</h2>
 
       <p>
-        Heute, am 20.03.2020, existiert nur die Idee und ein erster Projekt-Entwurf. Damit <i>Solidaric.org</i> schnell
-        zum Leben erwacht und die Menschen in unserer Nähe unterstützt, benötigen wir u.a. Antworten auf die folgenden
-        Fragen sowie umgesetzte Lösungen.
+        Heute, am 20.03.2020, startet der #WirVsVirus Hackathon. Viele sind enthusiastisch und wollen helfen.
+        Mit <i>Solidaric.org</i> würden wir gerne eine Liste mit Möglichkeiten zum Helfen zur Verfügung stellen.
+        Damit dies zum Leben erwacht und die Menschen in unserer Nähe unterstützt, benötigen wir u.a. Antworten
+        auf die folgenden Fragen sowie Hinweise zu umgesetzten Lösungen.
         <strong> Es kommt auf uns alle an!</strong>
       </p>
       <p>
