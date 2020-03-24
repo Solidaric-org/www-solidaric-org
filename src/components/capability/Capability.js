@@ -2,7 +2,7 @@ import React from 'react';
 
 import parseHTML from 'html-react-parser';
 
-const Capability = ({ iconClass, heading, description, to }) =>
+const Capability = ({ heading, description, iconClass, to }) =>
   <section>
     { heading !== '' &&
       <span className={`icon major ${iconClass}`} />
