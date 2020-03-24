@@ -42,7 +42,7 @@ const Engage = () => {
           So eine große Aufgabe geht nur mit Hilfe vieler Hände und Unterstützer.
         </p>
         <p>
-          Du findest hier Angebote sowie bestehende Initiativen bei denen Du Dich gerne einbringen kannst
+          Du findest hier Angebote und bestehende Initiativen bei denen Du Dich gerne einbringst
           oder Du stellst Deine <span className="no-wrap">eigenen Ideen vor.</span>
         </p>
 

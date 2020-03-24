@@ -1,8 +1,8 @@
 heading:
   LadenLiebe
 description:
-  Prototyp einer Plattform im Rahmen des \#WirVsVirusHack,
-  die analog zu ShareTheMeal oder Patreon ermöglicht, an lokale Unternehmen zu spenden.
+  'Prototyp einer Plattform im Rahmen des #WirVsVirusHack,
+  die analog zu ShareTheMeal oder Patreon ermöglicht, an lokale Unternehmen zu spenden.'
 iconClass:
   fa-code
 stable:

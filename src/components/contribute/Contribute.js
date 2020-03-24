@@ -11,10 +11,10 @@ const Contribute = () =>
       <h2>Was ist zu tun?</h2>
 
       <p>
-        Heute, am 20.03.2020, startete der #WirVsVirus Hackathon. Viele sind enthusiastisch und wollen helfen.
+        Heute, am 20.03.2020, startet der #WirVsVirus Hackathon. Viele sind enthusiastisch und wollen helfen.
         Mit <i>Solidaric.org</i> entsteht hoffentlich eine Übersicht mit Möglichkeiten zur direkten Hilfe.
-        Damit diese Initiative mit Leben gefüllt wird und so die Menschen in Deiner Nähe unterstützt,
-        <span className="no-wrap"> ist u.a.</span> <span className="no-wrap">das Folgende wichtig —</span>
+        Damit alle Initiativen mit Leben gefüllt und so die Menschen in Deiner Nähe unterstützt werden,
+        ist <span className="no-wrap">Engagement gefordert —</span>
         <span className="no-wrap"><strong> es kommt jetzt auf uns alle an!</strong></span>
       </p>
       <p>

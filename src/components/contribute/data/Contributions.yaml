@@ -1,8 +1,8 @@
 - heading:
-    Finazielle Hilfe
+    Finanzielle Hilfe
   description:
     Die Selbständigen, Unternehmen, Sportvereine, <span className="no-wrap">Einrichtungen etc.</span>
-    geraten unmittelbar in finanzielle Not. Hier hilft konkret Deine finazielle Zuwendung sowie das
+    geraten unmittelbar in finanzielle Not. Hier hilft konkret Deine finanzielle Zuwendung oder das
     Erlassen <span className="no-wrap">einer Schuld.</span>
   iconClass:
     fa-euro
@@ -18,29 +18,29 @@
 - heading:
     Gleichgesinnte bewegen
   description:
-    Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+    In der Gemeinschaft liegt die Kraft und setzt Bewegung frei — finde andere in Deinem Umfeld und tausche Dich aus.
   iconClass:
     fa-comments-o
 
 - heading:
     Aktive Hilfe
   description:
-    Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+    Viele, die in Not sind, getrauen sich nicht Hilfe, insbesonder finanzielle, anzunehmen —
+    unterstütze die <i>Menschen</i> hinter den Unternehmen, dass die Hilfen ankommen.
   iconClass:
     fa-handshake-o
 
 - heading:
     Aufgaben übernehmen
   description:
-    Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+    Freiwilligenarbeit ist mächtig und sehr erfüllend — mach doch direkt mit und unterstütze eine der vielen Initiativen.
   iconClass:
     fa-check
 
 - heading:
-    Über Initiativen informieren
+    Initiative gefunden?
   description:
     Reiche bitte Hinweise zu weiteren Lösungen und Initiativen bei <i>Solidaric.org</i> ein — entweder per Twitter,
     <span className="no-wrap">GitHub oder E-Mail.</span>
   iconClass:
     fa-pencil-square-o
-
