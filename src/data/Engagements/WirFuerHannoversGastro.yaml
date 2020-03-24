@@ -1,5 +1,5 @@
 heading:
-  Spendenaktion
+  Spendenaktion auf betterplace
 description:
   Wir für Hannovers Gastro! Corona-Soforthilfe auf betterplace.me.
 iconClass:
@@ -8,4 +8,4 @@ stable:
   true
 to:
   href: https://www.betterplace.me/hannover-corona-soforthilfe
-  label: betterplace.me
+  label: ''

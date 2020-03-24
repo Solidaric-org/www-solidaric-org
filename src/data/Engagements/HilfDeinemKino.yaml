@@ -1,5 +1,5 @@
 heading:
-  HilfDeinemKino
+  Hilf Deinem Kino
 description:
   'Schaue freiwillig Werbung und hilf dem Ort, der deine Kindheitserinnerungen schuf,
    der dir tolle Dates bescherte und der die legendärsten Geschichten erzählt hat.'
@@ -9,4 +9,4 @@ stable:
   true
 to:
   href: http://hilfdeinemkino.de
-  label: HilfDeinemKino.de
+  label: ''
