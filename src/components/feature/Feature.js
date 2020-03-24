@@ -2,6 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Scroll from '../common/Scroll';
 
+import parseHTML from 'html-react-parser';
+
 const Feature = ({image, heading, description, to}) =>
   <section>
     <div className="image">
@@ -10,7 +12,7 @@ const Feature = ({image, heading, description, to}) =>
     <div className="content">
       <div className="inner">
         <h2>{heading}</h2>
-        <p>{description}</p>
+        <p>{parseHTML(description)}</p>
         { to &&
           <ul className="actions">
             <li>
