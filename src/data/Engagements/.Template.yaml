@@ -1,0 +1,12 @@
+heading:
+  title
+description:
+  'Mehrzeiliger
+   Text'
+iconClass:
+  fa-heart-o
+stable:
+  true
+to:
+  href: https://url
+  label: Website Titel
