@@ -49,7 +49,7 @@ Solidaric.org was built with the help from [GatsbyJS website framework](https://
 
 ## Images & References
 
-Thanks to all the ceratives and open (source) lovers for your work. This is a reference of used components and material:
+Thanks to all the creatives and open (source) lovers for your work. This is a reference of used components and material:
 
 1. [Photo by Markus Spiske on Unsplash](https://unsplash.com/photos/cUhssb9roaU)
 1. [Photo by Randy Fath on Unsplash](https://unsplash.com/photos/ymf4_9Y9S_A)
