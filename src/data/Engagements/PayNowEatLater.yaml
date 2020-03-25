@@ -1,0 +1,13 @@
+heading:
+  Pay Now Eat Later
+description:
+  Werde zum Retter deines Lieblings-Cafes, -Restaurants.
+iconClass:
+  fa-heart-o
+category:
+  - voucher
+status:
+  production
+to:
+  href: https://www.paynoweatlater.de
+  label: ''

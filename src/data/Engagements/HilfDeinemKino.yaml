@@ -5,8 +5,10 @@ description:
   der dir tolle Dates bescherte und der die legendärsten Geschichten erzählt hat.
 iconClass:
   fa-heart-o
-stable:
-  true
+category:
+  - donation
+status:
+  production
 to:
   href: http://hilfdeinemkino.de
   label: ''

@@ -4,8 +4,10 @@ description:
   Sei mit Deinen Fähigkeiten dabei, wenn wir Lösungen aus der Gesellschaft für die Gesellschaft entwickeln.
 iconClass:
   fa-code
-stable:
-  false
+category:
+  - hackathon
+status:
+  development
 to:
   href: https://wirvsvirushackathon.devpost.com/submissions
   label: ''

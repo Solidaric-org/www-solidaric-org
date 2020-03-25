@@ -7,12 +7,17 @@ const Engage = () => {
   const data = useStaticQuery(
     graphql`
       {
-        stable: allEngagementsYaml(filter: {stable: {eq: true}}) {
+        solidaric: allEngagementsYaml(filter: {status: {eq: "production"}, category: {in: ["voucher", "donation"]}}) {
           edges {
             ...engagementNode
           }
         }
-        unstable: allEngagementsYaml(filter: {stable: {eq: false}}) {
+        commercial: allEngagementsYaml(filter: {status: {eq: "production"}, category: {in: ["onboarding"]}}) {
+          edges {
+            ...engagementNode
+          }
+        }
+        development: allEngagementsYaml(filter: {status: {eq: "development"}}) {
           edges {
             ...engagementNode
           }
@@ -23,7 +28,8 @@ const Engage = () => {
           heading
           description
           iconClass
-          stable
+          category
+          status
           to {
             href
             label
@@ -48,10 +54,23 @@ const Engage = () => {
 
         <br />
 
-        <h3>Verfügbare Initiativen</h3>
+        <h3>Solidarische Initiativen</h3>
+        <p>
+          <i>Diese Initiativen nutzen vorwiegend Spenden und Gutscheine um direkte finanzielle Unterstützung zu leisten.</i>
+        </p>
+        <div className="features without-borders">
+          {CapabilityList(data.solidaric.edges)}
+        </div>
+
+        <br />
+
+        <h3>Onboarding Lösungen</h3>
+        <p>
+          <i>Diese Lösungen bemühen sich darum, die Leistungen online verfügbar zu machen und darüber Umsätze und Einnahmen zu erzeugen.</i>
+        </p>
         <p></p>
         <div className="features without-borders">
-          {CapabilityList(data.stable.edges)}
+          {CapabilityList(data.commercial.edges)}
         </div>
 
         <br />
@@ -62,7 +81,7 @@ const Engage = () => {
           über Deine Mithilfe.</i>
         </p>
         <div className="features without-borders">
-          {CapabilityList(data.unstable.edges)}
+          {CapabilityList(data.development.edges)}
         </div>
       </div>
     </section>

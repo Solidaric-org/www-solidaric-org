@@ -1,0 +1,13 @@
+heading:
+  "Please Don't Close"
+description:
+  Wir wollen unsere liebsten Orte erhalten, damit wir sie nach der Krise wieder ganz normal besuchen können.
+iconClass:
+  fa-heart-o
+category:
+  - onboarding
+status:
+  production
+to:
+  href: https://pleasedontclose.com/de/
+  label: ''

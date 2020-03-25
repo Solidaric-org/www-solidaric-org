@@ -5,8 +5,13 @@ description:
   Text
 iconClass:
   fa-heart-o
-stable:
-  true
+category:
+  - voucher
+  - donation
+  - onboarding
+  - hackathon
+status:
+  production | development
 to:
   href: https://url
   label: Empty or Button-Title

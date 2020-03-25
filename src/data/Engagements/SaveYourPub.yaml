@@ -5,8 +5,10 @@ description:
   dass es nach der Corona-Zeit weiterhin existieren kann.
 iconClass:
   fa-heart-o
-stable:
-  true
+category:
+  - donation
+status:
+  production
 to:
   href: https://www.saveyourpub.com
   label: ''

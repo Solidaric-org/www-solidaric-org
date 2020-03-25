@@ -1,0 +1,14 @@
+heading:
+  Einzelheld
+description:
+  Mit unserem virtuellen Marktplatz möchten wir die regionalen Einzelhändler unterstützen,
+  damit diese auch nach der Krise noch für uns da sein können.
+iconClass:
+  fa-heart-o
+category:
+  - onboarding
+status:
+  production
+to:
+  href: https://www.einzelheld.de
+  label: ''

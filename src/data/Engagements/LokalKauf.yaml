@@ -1,0 +1,13 @@
+heading:
+  LokalKauf
+description:
+  Bestelle online bei Deinen Lieblingshändlern in der Nachbarschaft.
+iconClass:
+  fa-heart-o
+category:
+  - onboarding
+status:
+  development
+to:
+  href: https://url
+  label: ''

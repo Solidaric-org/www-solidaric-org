@@ -1,0 +1,13 @@
+heading:
+  Helfen.Berlin
+description:
+  Kaufe jetzt Gutscheine für deine Lieblingsorte und löse sie ein, wenn sie wieder geöffnet haben.
+iconClass:
+  fa-heart-o
+category:
+  - voucher
+status:
+  production
+to:
+  href: https://helfen.berlin
+  label: ''

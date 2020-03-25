@@ -5,8 +5,10 @@ description:
   die analog zu ShareTheMeal oder Patreon ermöglicht, an lokale Unternehmen zu spenden.'
 iconClass:
   fa-code
-stable:
-  false
+category:
+  - donation
+status:
+  development
 to:
   href: https://devpost.com/software/1_d_16_lokaleunternehmen-plus-tmpname
   label: ''

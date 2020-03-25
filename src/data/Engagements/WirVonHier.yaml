@@ -1,0 +1,14 @@
+heading:
+  Wir von Hier
+description:
+  Wir helfen Menschen lokale Geschäfte in Ihrer unmittelbaren Nähe zu entdecken und
+  so direkten Kontakt zum benachbarten Einzelhändler zu schaffen.
+iconClass:
+  fa-heart-o
+category:
+  - onboarding
+status:
+  development
+to:
+  href: https://wirvonhier.net
+  label: ''
