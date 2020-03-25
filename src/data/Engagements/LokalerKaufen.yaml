@@ -1,0 +1,13 @@
+heading:
+  Lokaler Kauf
+description:
+  Wir bringen kleine Läden zurück ins Spiel.
+iconClass:
+  fa-heart-o
+category:
+  - onboarding
+status:
+  production
+to:
+  href: https://lokaler.kaufen
+  label: ''

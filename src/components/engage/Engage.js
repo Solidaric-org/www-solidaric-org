@@ -54,7 +54,7 @@ const Engage = () => {
 
         <br />
 
-        <h3>Solidarische Initiativen</h3>
+        <h3>Spenden und Initiativen</h3>
         <p>
           <i>Diese Initiativen nutzen vorwiegend Spenden und Gutscheine um direkte finanzielle Unterstützung zu leisten.</i>
         </p>
@@ -64,7 +64,7 @@ const Engage = () => {
 
         <br />
 
-        <h3>Onboarding Lösungen</h3>
+        <h3>e-Leistungen anbieten</h3>
         <p>
           <i>Diese Lösungen bemühen sich darum, die Leistungen online verfügbar zu machen und darüber Umsätze und Einnahmen zu erzeugen.</i>
         </p>

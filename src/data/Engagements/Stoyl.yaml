@@ -1,0 +1,14 @@
+heading:
+  title
+description:
+  Lasst uns solidarisch zusammenhalte und denjenigen helfen,
+  die unsere Hilfe aktuell am Stärksten brauchen.
+iconClass:
+  fa-heart-o
+category:
+  - voucher
+status:
+  production
+to:
+  href: https://www.stoyl.de
+  label: ''

@@ -1,0 +1,14 @@
+heading:
+  LocalGastro
+description:
+  LocalGastro verbindet Dich mit lokalen Gastronomen in deiner Umgebung,
+  denn gerade in schwierigen Zeiten müssen wir zusammenhalten.
+onClass:
+  fa-heart-o
+category:
+  - onboarding
+status:
+  production
+to:
+  href: https://localgastro.de
+  label: ''

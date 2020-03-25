@@ -1,0 +1,13 @@
+heading:
+  Rette Deinen Lieblingsladen
+description:
+  Jetz helfen damit in ein paar Wochen unsere Lieblingsläden nicht verschwunden sind.
+iconClass:
+  fa-heart-o
+category:
+  - voucher
+status:
+  production
+to:
+  href: https://www.rette-deinen-lieblingsladen.de
+  label: ''
