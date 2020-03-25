@@ -1,0 +1,14 @@
+heading:
+  Kiez Retter
+description:
+  Kiezretter ist eine Liebeserklärung an unsere Kieze – damit unsere Nachbarschaft
+  nach der Krise noch genauso bunt und vielfältig ist wie davor!
+iconClass:
+  fa-heart-o
+category:
+  - donation
+status:
+  production
+to:
+  href: https://www.kiez-retter.de/
+  label: ''
