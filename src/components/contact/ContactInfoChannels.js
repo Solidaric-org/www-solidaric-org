@@ -9,7 +9,7 @@ const ContactInfoChannels = () =>
       </li>
       <li>
         <h3>Telefon</h3>
-        <a href="tel:+49405619470"><span className="no-wrap">+49 40 5619570</span></a>
+        <a href="tel:+49405619470"><span className="no-wrap">+49 40 5619470</span></a>
       </li>
       <li>
         <h3>Social Networks</h3>
