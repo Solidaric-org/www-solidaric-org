@@ -29,15 +29,6 @@ const Contribute = () =>
         {CapabilityList(CONTRIBUTIONS_DATA)}
       </div>
 
-      {/*
-      <ul className="actions">
-        <li>
-          <Link className="button" to="/de/solidaric-die-idee">
-            Erfahre mehr ...
-          </Link>
-        </li>
-      </ul>
-      */}
     </div>
   </section>
 

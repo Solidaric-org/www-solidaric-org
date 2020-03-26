@@ -11,16 +11,8 @@ const Header = () => (
     <nav>
       <ul>
         <li>
-          <Link to="/de">Start</Link>
+          <Link to="/">Start</Link>
         </li>
-        {/*
-        <li>
-          <Link to="/de/generic">Generic</Link>
-        </li>
-        <li>
-          <Link to="/de/elements">Elements</Link>
-        </li>
-        */}
       </ul>
     </nav>
   </header>

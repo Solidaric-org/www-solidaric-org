@@ -10,7 +10,7 @@ const Footer = () => (
           &copy; 2020 Solidaric.org, all rights reserved.
         </li>
         <li>
-          <a href="/de#contact">Impressum</a>
+          <a href="/#contact">Impressum</a>
         </li>
       </ul>
     </div>

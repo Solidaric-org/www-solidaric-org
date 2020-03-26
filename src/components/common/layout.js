@@ -27,7 +27,7 @@ const Layout = ({ children }) => (
             { property: 'og:description', content: 'Gemeinsam in Krisenzeiten - gemeinsam im Leben.' },
             { property: 'og:image', itemprop: 'image', content: 'https://www.solidaric.org/static/solidaric-org-social-fix-image-1200x640.jpg' },
             { property: 'og:image:type', content: 'image/png' },
-            { property: 'og:url', content: 'https://www.solidaric.org/de' },
+            { property: 'og:url', content: 'https://www.solidaric.org/' },
             { property: 'og:type', content: 'website' },
             { property: 'twitter:card', content: 'summary_large_image' },
             { property: 'twitter:title', content: 'Solidaric.org - Menschen für Menschen' },
