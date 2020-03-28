@@ -9,7 +9,7 @@
 
 ## Installation
 
-You best use latest stable node and installation is very easy, just checkout this repo and run:
+Best use latest stable nodejs release and installation is very easy, just checkout this repo and run:
 
 ```bash
 # get source
@@ -18,10 +18,7 @@ git clone https://github.com/Solidaric-org/www-solidaric-org.git
 # cd into source
 cd www-solidaric-org
 
-# install gatsby locally
-npm install gatsby
-
-# install used packages
+# install gatsby and packages
 npm install
 
 # compile and start local server
