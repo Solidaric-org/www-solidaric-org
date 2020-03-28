@@ -1,0 +1,13 @@
+heading:
+  Bielefeld Wir Liefern
+description:
+  Sie haben ein inhabergeführtes Geschäft in der Bielefelder Altstadt und können liefern?
+iconClass:
+  fa-heart-o
+category:
+  - onboarding
+status:
+  production
+to:
+  href: https://wirliefern.bielefeld-altstadt.de/de/
+  label: ''

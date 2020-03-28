@@ -1,0 +1,13 @@
+heading:
+  Veedels Retter
+description:
+  Das Büdchen an der Ecke, die gemütliche Kneipe, der hippe Club oder das leckere Restaurant, der lokale Einzelhandel – sie alle machen ein Veedel bunt und einzigartig.
+iconClass:
+  fa-heart-o
+category:
+  - donation
+status:
+  production
+to:
+  href: https://www.veedelsretter.koeln/
+  label: ''

@@ -1,0 +1,13 @@
+heading:
+  Wir Helfen Lübeck
+description:
+  Rette deine Lübecker Lieblingsorte! Unterstütze deine Lieblingsorte finanziell.
+iconClass:
+  fa-heart-o
+category:
+  - voucher
+status:
+  production
+to:
+  href: https://www.hlfen.de/
+  label: ''

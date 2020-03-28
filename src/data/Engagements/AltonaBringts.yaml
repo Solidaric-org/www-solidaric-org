@@ -1,0 +1,13 @@
+heading:
+  Altona bringt's
+description:
+  Wir ermöglichten es lokale Betriebe zu finden, die ihre Produkte und Dienstleistungen in dieser schwierigen Phase anbieten.
+iconClass:
+  fa-heart-o
+category:
+  - onboarding
+status:
+  production
+to:
+  href: https://altona-bringts.de/
+  label: ''

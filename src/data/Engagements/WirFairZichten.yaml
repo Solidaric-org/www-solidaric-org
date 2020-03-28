@@ -1,0 +1,13 @@
+heading:
+  FairZichten
+description:
+  Damit Kulturstätten, Fitnessstudios, Restaurants und Campingplätze in der Nachbarschaft nicht dauerhaft verloren gehen, können Sie hier auf Ihre Erstattungsansprüche FAIRzichten.
+iconClass:
+  fa-heart-o
+category:
+  - donation
+status:
+  production
+to:
+  href: https://www.wir-fairzichten.de/
+  label: ''

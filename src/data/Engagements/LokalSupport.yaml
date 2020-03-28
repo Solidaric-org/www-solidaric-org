@@ -1,0 +1,14 @@
+heading:
+  Lokal* Support
+description:
+  Damit deine Lieblingslokalität überleben kann unterstütze es jetzt mit einem kleinen Trinkgeld.
+
+iconClass:
+  fa-heart-o
+category:
+  - donation
+status:
+  production
+to:
+  href: https://lokal-support.de/
+  label: ''

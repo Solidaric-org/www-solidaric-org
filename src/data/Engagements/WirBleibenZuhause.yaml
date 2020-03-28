@@ -1,0 +1,13 @@
+heading:
+  Wir bleiben Zuhause
+description:
+  Mit jeder Bestellung unterstützen wir die lokalen Geschäfte in dieser schweren Situation!
+iconClass:
+  fa-heart-o
+category:
+  - onboarding
+status:
+  production
+to:
+  href: https://www.shapefruit.de/liefernlassen/
+  label: ''

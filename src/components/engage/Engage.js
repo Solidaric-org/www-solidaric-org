@@ -7,17 +7,40 @@ const Engage = () => {
   const data = useStaticQuery(
     graphql`
       {
-        solidaric: allEngagementsYaml(filter: {status: {eq: "production"}, category: {in: ["voucher", "donation"]}}) {
+        solidaric: allEngagementsYaml(
+          filter: {
+            status: {eq: "production"},
+            category: {in: ["voucher", "donation"]}
+          },
+          sort: {
+            order: ASC, fields: heading
+          }
+        ) {
           edges {
             ...engagementNode
           }
         }
-        commercial: allEngagementsYaml(filter: {status: {eq: "production"}, category: {in: ["onboarding"]}}) {
+        commercial: allEngagementsYaml(
+          filter: {
+            status: {eq: "production"},
+            category: {in: ["onboarding"]}
+          },
+          sort: {
+            order: ASC, fields: heading
+          }
+        ) {
           edges {
             ...engagementNode
           }
         }
-        development: allEngagementsYaml(filter: {status: {eq: "development"}}) {
+        development: allEngagementsYaml(
+          filter: {
+            status: {eq: "development"}
+          },
+          sort: {
+            order: ASC, fields: heading
+          }
+        ) {
           edges {
             ...engagementNode
           }

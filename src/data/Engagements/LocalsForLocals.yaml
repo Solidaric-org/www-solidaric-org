@@ -1,0 +1,13 @@
+heading:
+  Locals For Locals
+description:
+  Kaufe Gutscheine deiner lokalen Restaurants, Bars, Geschäfte und Dienstleister und hilf ihnen durch die Krise.
+iconClass:
+  fa-heart-o
+category:
+  - voucher
+status:
+  production
+to:
+  href: https://www.locals-for-locals.de/
+  label: ''

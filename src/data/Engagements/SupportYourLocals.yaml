@@ -1,0 +1,13 @@
+heading:
+  Support Your Locals
+description:
+  In Krisenzeiten ist Zusammenhalt wichtiger denn je.
+iconClass:
+  fa-heart-o
+category:
+  - onboarding
+status:
+  production
+to:
+  href: https://supportyourlocals.net/
+  label: ''

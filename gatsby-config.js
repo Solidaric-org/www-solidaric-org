@@ -21,7 +21,6 @@ module.exports = {
       },
     },
     'gatsby-plugin-sass',
-    'gatsby-plugin-offline',
     'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-source-filesystem',
