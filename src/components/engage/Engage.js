@@ -77,6 +77,16 @@ const Engage = () => {
 
         <br />
 
+        <p>
+          Update, am 28.03.2020, stellen wir die Aktualisierungen der Initiativen und Projekte ein. Es sind
+          einfach in den letzten Tage Initiativen wie Pilze aus dem Boden geschossen. Damit jemand helfen
+          kann, muss ja auch Zugang möglich sein. Bei so vielen Initiativen verliert sich schnell der
+          Überblick. Damit wir nicht zur Verwirrung beitragen, bleibt die Seite im aktuellen Stand archiviert.
+          Wer möchte kann sich alles unter GitHub laden und weiter oder selber machen.
+        </p>
+
+        <br />
+
         <h3>Spenden und Initiativen</h3>
         <p>
           <i>Diese Initiativen nutzen vorwiegend Spenden und Gutscheine um direkte finanzielle Unterstützung zu leisten.</i>
