@@ -3,7 +3,7 @@ import '../../assets/sass/main.scss';
 
 const Footer = () => {
   // Client-side Runtime Data Fetching
-  const [hitCount, setHitCount] = useState(0);
+  const [hitCount, setHitCount] = useState('…');
   useEffect(() => {
     let query ='https://hitcounter.pythonanywhere.com/count' + '?url=' + encodeURIComponent('solidaric-org.github.io/www-solidaric-org')
     // get data from counter api
