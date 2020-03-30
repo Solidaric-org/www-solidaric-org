@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'gatsby';
 import Scroll from '../common/Scroll';
 
 import CapabilityList from '../capability/CapabilityList';
