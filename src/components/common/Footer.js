@@ -5,7 +5,7 @@ const Footer = () => {
   // Client-side Runtime Data Fetching
   const [hitCount, setHitCount] = useState(0);
   useEffect(() => {
-    let query ='https://hitcounter.pythonanywhere.com/count' + '?url=' + encodeURIComponent('www.solidaric.org')
+    let query ='https://hitcounter.pythonanywhere.com/count' + '?url=' + encodeURIComponent('solidaric-org.github.io/www-solidaric-org')
     // get data from counter api
     fetch(query)
       .then(response => response.json()) // parse JSON from request
